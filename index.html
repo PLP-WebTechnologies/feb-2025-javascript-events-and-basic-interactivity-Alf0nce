@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Event Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:azure;">
+    <h1>JavaScript Event Playground</h1>
+
+    <!-- 1. Event Handling -->
+    <section>
+        <h2>🎈 Event Handling</h2>
+        <button id="myButton">Click Here!</button>
+        <div id="hoverBox">Hover Over Me!</div>
+        <p>Press any key to see detection.</p>
+        <div id="secretBox">Try double-clicking or holding me!</div>
+    </section>
+
+    <!-- 2. Interactive Elements -->
+    <section>
+        <h2>🎮 Interactive Elements</h2>
+        <button id="colorButton">Change The Color!</button>
+        
+        <div class="slideshow">
+            <div class="slide">Web development</div>
+            <div class="slide" style="display: none;">Python</div>
+            <div class="slide">Database</div>
+            <div class="slide" style="display: none;">Enterpreneurship</div>
+            <button id="prevBtn">Previous</button>
+            <button id="nextBtn">Next</button>
+        </div>
+
+        <div class="tabs">
+            <div class="tab active">1st Choice</div>
+            <div class="tab">2nd Choice</div>
+            <div class="tab-content" style="display: block;">Web Development</div>
+            <div class="tab-content" style="display: none;">Mobile App Development</div>
+        </div>
+
+        <div id="animatedBox">Click to Spin!</div>
+    </section>
+
+    <!-- 3. Form Validation -->
+    <section>
+        <h2>📋 Form Validation</h2>
+        <form id="myForm">
+            <input type="text" id="requiredInput" placeholder="Required Field" required>
+            <input type="email" id="emailInput" placeholder="Email">
+            <input type="password" id="passwordInput" placeholder="Password (min 8 chars)">
+            <span id="passwordFeedback"></span>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Event Handling Styles */
+#hoverBox {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    text-align: center;
+    background-color: lightblue;
+}
+
+#secretBox {
+    padding: 10px;
+    border: 1px dashed gray;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+/* Interactive Elements Styles */
+#colorButton, #myButton, #prevBtn, #nextBtn {
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.slide {
+    padding: 20px;
+    background: #f0f0f0;
+    margin: 10px 0;
+}
+
+.tab {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #eee;
+    cursor: pointer;
+}
+
+.tab.active {
+    background: #ddd;
+}
+
+.tab-content {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+#animatedBox {
+    width: 100px;
+    height: 100px;
+    background: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+/* Animation */
+.spin {
+    animation: spin 1s linear;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Form Validation Styles */
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+}
+
+#passwordFeedback {
+    display: block;
+    margin: 5px 0;
+    font-size: 0.9em;
+}
